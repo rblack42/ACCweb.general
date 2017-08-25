@@ -30,7 +30,7 @@ release = '1.0'
 language = None
 
 today_fmt = '%B %d, %Y'
-exclude_patterns = ['_venv', '_build', '_unpublished']
+exclude_patterns = ['_venv', '_build', '_unpublished', 'README.rst']
 pygments_style = 'sphinx'
 
 todo_include_todos = False
