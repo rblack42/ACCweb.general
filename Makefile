@@ -25,6 +25,8 @@ build:
 # test - check spelling of all website pages
 test:
 	sphinx-build -b spelling -d _build/doctrees . _build/spelling
+	sphinx-build -b linkcheck -d _build/doctrees . _build/linkcheck
+
 
 .PHONY: sync
 # target: sync - upload local image to website
